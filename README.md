@@ -63,3 +63,56 @@ I evaluated **net rental returns** after considering mortgage, taxes, and potent
 - High rental income alone doesn’t guarantee ROI—expenses must be carefully modeled.
 - Include **vacancy rates** and **management fees** to reflect true net income.
 
+## 📊 Visualizations
+This project includes a mix of **interactive and static charts** that uncover key trends, patterns, and insights across the U.S. housing market using Zillow data.
+- **Interactive bar chart** showing ROI % across best-performing states.
+- **Sunburst Chart** for Hierarchical breakdown of top 5 states by median sale price and county-wise distribution.
+- **Geographical Heatmap** of inventory listings by state (2024–25).
+- **Summary Table** - Tabular breakdown of KPIs including ROI, tax rate, rent, and mortgage across selected regions. and many more can see seen inside the notebook.
+
+## 🧑‍🤝‍🧑 Project Collaboration Context
+
+This project was a team effort with the following division of work:
+
+| Team Member        | Contribution                                      |
+|--------------------|--------------------------------------------------|
+| Member 1           | Q1 – Market Trends & Top-Performing Cities       |
+| **Rohith Ambarish**| **Q2 – Price & Inventory Trends**, **Q5–Q6 ROI Models** |
+| Member 3           | Q3 – Investment Timing & Location Recommendations |
+| Member 4           | Q4 – Days on Market (DOM) Analysis               |
+| All Members        | Presented individual models for Q5 & Q6 ROI      |
+
+## 📁 Repository Structure
+It contains the datasets used in the 'datasets' folder and the 'jupyter notebook' files.
+
+## 🛠️ Tools Used
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
+- Jupyter Notebooks
+- Zillow Housing Data (ZHVI, ZORI, Inventory, Tax Rates)
+
+## 📌 Summary
+
+My analysis shows that:
+- The U.S. housing market is growing in both price and listings, but may cool in the short term.
+- Strategic sales in smaller markets like **Niles, MI** can deliver meaningful ROI after 1–2 years.
+- Rental income is most profitable in markets with **moderate home values and low taxes**, such as **Florence, SC**.
+
+Accurate financial modeling of mortgage, upgrades, and operational costs is **critical** to successful investment.
+
+## 🧪 How to Use
+1. Clone the repo.
+2. Install required packages (pandas numpy plotly seaborn matplotlib)
+3. Launch the Jupyter Notebook
+4. Explore the Notebook:
+   - All interactive Plotly charts will render inside the notebook.
+   - Scroll through markdown + code cells for Data loading, Visualizations, Insights, Conclusion.
+  
+## 🧠 Key Learnings
+- **Analyzed real-world Zillow housing data** to identify market trends and investment opportunities.
+- **Learned how to calculate ROI** for both property resale and rental income after expenses.
+- **Used interactive Plotly charts to visualize** trends, compare regions, and present insights clearly.
+- Identified top-performing markets for profitable investment.
+- **Improved skills in Python, data analysis, visualization, and real estate financial modeling.**
+- **Gained practical experience applying data science to real estate decision-making.**
+   
