@@ -5,17 +5,11 @@ This project explores **profitable real estate investment opportunities in the U
 
 This repository highlights my contribution to a collaborative real estate investment analysis project. The objective was to assess the U.S. real estate market using Zillow’s publicly available housing data and provide data-driven recommendations on where and how to invest **$12 million** for optimal returns.
 
-Each team member individually analyzed a specific question related to real estate trends and investment decisions. I focused on:
+This repository contains **code, visualizations, and conclusions** for these questions including other members analysis on thier questions, presented in a Jupyter Notebook format using Python and Zillow datasets.
 
-- **Q2: Are sale prices and inventory listings going up or down in the U.S.?**
-- **Q5: What profit can be expected from property sales after paying the mortgage? (Sale ROI)**
-- **Q6: What monthly income can be expected from rental properties after expenses? (Rental ROI)**
+## 🔍 Key Findings:
 
-This repository contains my **code, visualizations, and conclusions** for these questions including other members analysis on thier questions, presented in a Jupyter Notebook format using Python and Zillow datasets.
-
-## 🔍 My Contributions
-
-### 🏠 Q2: Are Sale Prices and Inventory Listings Going Up or Down?
+### 🏠 Are Sale Prices and Inventory Listings Going Up or Down?
 
 #### 🔎 Key Findings:
 - **Median Sale Price** (as of March 2025): $356,140 (+3.23% YoY)
@@ -30,11 +24,11 @@ This repository contains my **code, visualizations, and conclusions** for these 
 
 ---
 
-### 💰 Q5: Sale-Based ROI After Paying Mortgage
+### 💰 Sale-Based ROI After Paying Mortgage
 
 In this section, I developed a financial model to estimate profits from buying, upgrading, and selling properties.
 
-#### 🧮 My Approach:
+#### 🧮 Approach:
 - Estimated mortgage payments (30-year fixed @ 6.5% interest).
 - Modeled appreciation over 5 years.
 - Included upgrade costs and selling fees.
@@ -47,7 +41,7 @@ In this section, I developed a financial model to estimate profits from buying, 
 
 ---
 
-### 📈 Q6: Rental Income ROI After Mortgage & Expenses
+### 📈 Rental Income ROI After Mortgage & Expenses
 
 I evaluated **net rental returns** after considering mortgage, taxes, and potential vacancy/maintenance costs.
 
@@ -69,18 +63,6 @@ This project includes a mix of **interactive and static charts** that uncover ke
 - **Sunburst Chart** for Hierarchical breakdown of top 5 states by median sale price and county-wise distribution.
 - **Geographical Heatmap** of inventory listings by state (2024–25).
 - **Summary Table** - Tabular breakdown of KPIs including ROI, tax rate, rent, and mortgage across selected regions. and many more can see seen inside the notebook.
-
-## 🧑‍🤝‍🧑 Project Collaboration Context
-
-This project was a team effort with the following division of work:
-
-| Team Member        | Contribution                                      |
-|--------------------|--------------------------------------------------|
-| Member 1           | Q1 – Market Trends & Top-Performing Cities       |
-| **Rohith Ambarish**| **Q2 – Price & Inventory Trends**, **Q5–Q6 ROI Models** |
-| Member 3           | Q3 – Investment Timing & Location Recommendations |
-| Member 4           | Q4 – Days on Market (DOM) Analysis               |
-| All Members        | Presented individual models for Q5 & Q6 ROI      |
 
 ## 📁 Repository Structure
 It contains the datasets used in the 'datasets' folder and the 'jupyter notebook' files.
